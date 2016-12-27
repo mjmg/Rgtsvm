@@ -1,0 +1,39 @@
+useDynLib(Rgtsvm)
+
+import(graphics)
+import(grDevices)
+import(tools)
+import(methods)
+import(bit64);
+
+exportClasses("BigMatrix.refer")
+
+export(lsos)
+export(load.svmlight)
+export(svm)
+
+export(attach.bigmatrix)
+export(load.bigmatrix)
+
+export(predict.batch)
+export(predict.gtsvm)
+export(print.gtsvm)
+export(tune.svm)
+
+export(tune.control)
+export(plot.tune)
+export(summary.tune)
+export(print.tune)
+export(print.summary.tune)
+
+S3method(summary, gtsvm)
+S3method(plot, gtsvm)
+S3method(predict, gtsvm)
+S3method(print, gtsvm)
+S3method(print, summary.gtsvm)
+S3method(svm, default)
+S3method(svm, formula)
+S3method(summary, tune)
+S3method(print, tune)
+S3method(plot, tune)
+S3method(print, summary.tune)
