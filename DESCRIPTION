@@ -2,8 +2,7 @@ Package: Rgtsvm
 Version: 0.31
 Date: 2016-04-26
 Title: The SVM package for GPU architecture based on the GTSVM software and e1071 package.
-Imports: graphics, grDevices, class, tools, methods, BH, bit64
-Depends: dREG
+Imports: graphics, grDevices, class, tools, bit64, methods
 Suggests: SparseM, Matrix
 Description: Training and prediction of SVM based on GTSVM are avalaible on GPU architecture.
 License: GPLv3
